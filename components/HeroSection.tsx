@@ -42,7 +42,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+      <div className="flex flex-row items-center text-center justify-center">
         <Link
           className="cursor-pointer animate-bounce"
           to="about"

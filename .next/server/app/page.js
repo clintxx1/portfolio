@@ -228,7 +228,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 1690:
+/***/ 9551:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -287,7 +287,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3427)), "D:\\Clint\\DXTEAM\\portfolio\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 834)), "C:\\Users\\Clint\\Documents\\Projects\\CCCCCCCC\\portfolio\\app\\page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -298,7 +298,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 729)), "D:\\Clint\\DXTEAM\\portfolio\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 729)), "C:\\Users\\Clint\\Documents\\Projects\\CCCCCCCC\\portfolio\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["D:\\Clint\\DXTEAM\\portfolio\\app\\page.tsx"];
+    const pages = ["C:\\Users\\Clint\\Documents\\Projects\\CCCCCCCC\\portfolio\\app\\page.tsx"];
 
     
     
@@ -336,21 +336,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7477:
+/***/ 163:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2680))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6129))
 
 /***/ }),
 
-/***/ 1259:
+/***/ 3380:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1636))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1636));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23))
 
 /***/ }),
 
-/***/ 6202:
+/***/ 9901:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
@@ -361,7 +362,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 2680:
+/***/ 6129:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -379,8 +380,6 @@ var jsx_runtime_ = __webpack_require__(6786);
 var react_ = __webpack_require__(8038);
 // EXTERNAL MODULE: ./node_modules/react-scroll/modules/index.js
 var modules = __webpack_require__(7016);
-// EXTERNAL MODULE: ./node_modules/next/navigation.js
-var navigation = __webpack_require__(9483);
 // EXTERNAL MODULE: ./node_modules/next-themes/dist/index.js
 var dist = __webpack_require__(5176);
 // EXTERNAL MODULE: ./node_modules/react-icons/ri/index.esm.js
@@ -389,7 +388,6 @@ var index_esm = __webpack_require__(3751);
 var io_index_esm = __webpack_require__(5780);
 ;// CONCATENATED MODULE: ./components/Navbar.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
-
 
 
 
@@ -413,9 +411,7 @@ const NAV_ITEMS = [
 function Navbar() {
     const { systemTheme, theme, setTheme } = (0,dist/* useTheme */.F)();
     const currentTheme = theme === "system" ? systemTheme : theme;
-    const pathname = (0,navigation.usePathname)();
     const [navbar, setNavbar] = (0,react_.useState)(false);
-    console.log(theme);
     return /*#__PURE__*/ jsx_runtime_.jsx("header", {
         className: "w-full mx-auto px-4 sm:px-12 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -429,9 +425,9 @@ function Navbar() {
                                 to: "home",
                                 className: "cursor-pointer",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "container flex items-center space-y-2 rounded-full bg-purple-600 px-4 py-2",
+                                    className: "container flex items-center justify-center rounded-full bg-purple-600 w-12 h-12",
                                     children: /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                        className: "text-3xl font-bold",
+                                        className: "text-3xl font-bold text-center",
                                         children: "C"
                                     })
                                 })
@@ -495,8 +491,83 @@ function Navbar() {
 
 // EXTERNAL MODULE: ./styles/globals.css
 var globals = __webpack_require__(307);
+// EXTERNAL MODULE: ./node_modules/react-icons/ai/index.esm.js
+var ai_index_esm = __webpack_require__(9722);
+;// CONCATENATED MODULE: ./components/Footer.tsx
+
+
+
+const Footer = ()=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
+        className: "mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl ",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                className: "w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100",
+                        children: [
+                            "\xa9 2023 Clint Maribojoc",
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "/",
+                                className: "hover:underline"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "flex flex-row items-center justify-center space-x-2 mb-1",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://github.com/clintxx1",
+                                rel: "noreferrer",
+                                target: "_blank",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineGithub */.idJ, {
+                                    className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
+                                    size: 30
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://twitter.com/clintmaribojoc",
+                                rel: "noreferrer",
+                                target: "_blank",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineTwitter */.h3E, {
+                                    className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
+                                    size: 30
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://www.linkedin.com/in/clint-maribojoc-b34b80156/",
+                                rel: "noreferrer",
+                                target: "_blank",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineLinkedin */.Rti, {
+                                    className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
+                                    size: 30
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                href: "https://www.youtube.com/channel/UCetoMcRfp7aEaM_n24PCEcQ",
+                                rel: "noreferrer",
+                                target: "_blank",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineYoutube */.RLq, {
+                                    className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
+                                    size: 30
+                                })
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+};
+/* harmony default export */ const components_Footer = (Footer);
+
 ;// CONCATENATED MODULE: ./app/layout.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
+
 
 
 
@@ -512,7 +583,8 @@ function RootLayout({ children }) {
                     attribute: "class",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx(Navbar, {}),
-                        children
+                        children,
+                        /*#__PURE__*/ jsx_runtime_.jsx(components_Footer, {})
                     ]
                 })
             })
@@ -598,7 +670,7 @@ const HeroSection = ()=>{
                 ]
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                className: "flex flex-row items-center text-center justify-center ",
+                className: "flex flex-row items-center text-center justify-center",
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll_modules__WEBPACK_IMPORTED_MODULE_3__/* .Link */ .rU, {
                     className: "cursor-pointer animate-bounce",
                     to: "about",
@@ -632,7 +704,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`D:\Clint\DXTEAM\portfolio\app\layout.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Clint\Documents\Projects\CCCCCCCC\portfolio\app\layout.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -646,7 +718,7 @@ const __default__ = proxy.default;
 
 /***/ }),
 
-/***/ 3427:
+/***/ 834:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -660,11 +732,154 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
+var react_shared_subset = __webpack_require__(7887);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(993);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./components/AboutSection.tsx
+
+
+
+const skills = [
+    {
+        skill: "HTML"
+    },
+    {
+        skill: "CSS"
+    },
+    {
+        skill: "JavaScript"
+    },
+    {
+        skill: "TypeScript"
+    },
+    {
+        skill: "React"
+    },
+    {
+        skill: "Next.js"
+    },
+    {
+        skill: "Tailwind CSS"
+    },
+    {
+        skill: "Git"
+    },
+    {
+        skill: "GitHub"
+    },
+    {
+        skill: "Vue"
+    }
+];
+const AboutSection = ()=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
+        id: "about",
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "my-12 pb-12 md:pt-16 md:pb-48",
+            children: [
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
+                    className: "text-center font-bold text-4xl",
+                    children: [
+                        "About Me",
+                        /*#__PURE__*/ jsx_runtime_.jsx("hr", {
+                            className: "w-6 h-1 mx-auto my-4 bg-purple-500 border-0 rounded"
+                        })
+                    ]
+                }),
+                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                    className: "flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left",
+                    children: [
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "md:w-1/2 ",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                    className: "text-center text-2xl font-bold mb-6 md:text-left",
+                                    children: "Get to know me!"
+                                }),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                    children: [
+                                        "Hi, my name is Clint and I am a",
+                                        " ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "font-bold",
+                                            children: "passionate"
+                                        }),
+                                        ",",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "font-bold",
+                                            children: " self-motivated"
+                                        }),
+                                        ", and",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "font-bold",
+                                            children: " driven"
+                                        }),
+                                        " junior software developer based in Calbayog City, Philippines."
+                                    ]
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: "I graduated from Northwest Samar State University, Calbayog City, in 2023 with a BS in Computer Science having 2 years of web developer experience and have been working in the field ever since."
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    children: "I have a wide range of hobbies and passions that keep me busy. From playing computer games, singing, playing guitar, I am always seeking new experiences and love to keep myself engaged and learning new things."
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
+                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                                    children: [
+                                        "I believe that you should",
+                                        " ",
+                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                            className: "font-bold text-purple-500",
+                                            children: "never stop learning"
+                                        }),
+                                        " ",
+                                        "and that's what I strive to do, I have a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my career takes me and am always open to new opportunities. \uD83D\uDE42"
+                                    ]
+                                })
+                            ]
+                        }),
+                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "text-center md:w-1/2 md:text-left",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                    className: "text-2xl font-bold mb-6",
+                                    children: "My Skills"
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: "flex flex-wrap flex-row justify-center z-10 md:justify-start",
+                                    children: skills.map((item, idx)=>{
+                                        return /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                            className: "bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold",
+                                            children: item.skill
+                                        }, idx);
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                                    src: "/person.png",
+                                    alt: "",
+                                    width: 325,
+                                    height: 325,
+                                    className: "hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
+                                })
+                            ]
+                        })
+                    ]
+                })
+            ]
+        })
+    });
+};
+/* harmony default export */ const components_AboutSection = (AboutSection);
+
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
 var module_proxy = __webpack_require__(1313);
 ;// CONCATENATED MODULE: ./components/HeroSection.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`D:\Clint\DXTEAM\portfolio\components\HeroSection.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Clint\Documents\Projects\CCCCCCCC\portfolio\components\HeroSection.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -678,10 +893,14 @@ const __default__ = proxy.default;
 ;// CONCATENATED MODULE: ./app/page.tsx
 
 
+
 function Home() {
-    return /*#__PURE__*/ jsx_runtime_.jsx("main", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
         className: "mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl",
-        children: /*#__PURE__*/ jsx_runtime_.jsx(HeroSection, {})
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(HeroSection, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(components_AboutSection, {})
+        ]
     });
 }
 
@@ -726,7 +945,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,183], () => (__webpack_exec__(1690)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,223], () => (__webpack_exec__(9551)));
 module.exports = __webpack_exports__;
 
 })();
