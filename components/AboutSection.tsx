@@ -32,14 +32,14 @@ const AboutSection = () => {
                             Hi, my name is Clint and I am a{" "}
                             <span className="font-bold">{"passionate"}</span>,
                             <span className="font-bold">{" self-motivated"}</span>, and
-                            <span className="font-bold">{" driven"}</span> junior software developer
+                            <span className="font-bold">{" driven"}</span> junior frontend developer
                             based in Calbayog City, Philippines.
                         </p>
                         <br />
                         <p>
                             I graduated from Northwest Samar State University, Calbayog City, in 2023
-                            with a BS in Computer Science having 2 years of web developer experience and have been working in the
-                            field ever since.
+                            with a BS in Computer Science having 2 years of frontend developer experience 
+                            and have been working in the field ever since.
                         </p>
                         <br />
                         <p>

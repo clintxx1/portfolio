@@ -24,7 +24,7 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-purple-600">
-              Junior Software Developer{" "}
+              Junior Frontend Developer{" "}
             </span>
             based in Calbayog City, Philippines. Dedicated to shaping the future
             one line of code at a time.

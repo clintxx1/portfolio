@@ -343,14 +343,6 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_re
 
 /***/ }),
 
-/***/ 3380:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1636));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23))
-
-/***/ }),
-
 /***/ 9901:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -359,6 +351,14 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1522, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3100, 23))
+
+/***/ }),
+
+/***/ 2414:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1636))
 
 /***/ }),
 
@@ -648,7 +648,7 @@ const HeroSection = ()=>{
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "font-semibold text-purple-600",
                                         children: [
-                                            "Junior Software Developer",
+                                            "Junior Frontend Developer",
                                             " "
                                         ]
                                     }),
@@ -816,12 +816,12 @@ const AboutSection = ()=>{
                                             className: "font-bold",
                                             children: " driven"
                                         }),
-                                        " junior software developer based in Calbayog City, Philippines."
+                                        " junior frontend developer based in Calbayog City, Philippines."
                                     ]
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "I graduated from Northwest Samar State University, Calbayog City, in 2023 with a BS in Computer Science having 2 years of web developer experience and have been working in the field ever since."
+                                    children: "I graduated from Northwest Samar State University, Calbayog City, in 2023 with a BS in Computer Science having 2 years of frontend developer experience and have been working in the field ever since."
                                 }),
                                 /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
                                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
