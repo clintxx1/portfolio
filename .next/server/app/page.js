@@ -228,7 +228,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 9551:
+/***/ 1313:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -287,7 +287,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 834)), "C:\\Users\\Clint\\Documents\\Projects\\CCCCCCCC\\portfolio\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 834)), "/Users/clintmaribojoc/Desktop/portfolio/app/page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -298,7 +298,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 729)), "C:\\Users\\Clint\\Documents\\Projects\\CCCCCCCC\\portfolio\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 729)), "/Users/clintmaribojoc/Desktop/portfolio/app/layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -309,7 +309,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\Clint\\Documents\\Projects\\CCCCCCCC\\portfolio\\app\\page.tsx"];
+    const pages = ["/Users/clintmaribojoc/Desktop/portfolio/app/page.tsx"];
 
     
     
@@ -336,14 +336,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 163:
+/***/ 2328:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6129))
 
 /***/ }),
 
-/***/ 9901:
+/***/ 5949:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
@@ -354,7 +354,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 2414:
+/***/ 2136:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7649, 23));
@@ -510,7 +510,7 @@ const Footer = ()=>{
                     /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100",
                         children: [
-                            "\xa9 2023 Clint Maribojoc",
+                            "\xa9 2024 Clint Maribojoc",
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 href: "/",
                                 className: "hover:underline"
@@ -530,28 +530,10 @@ const Footer = ()=>{
                                 })
                             }),
                             /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "https://twitter.com/clintmaribojoc",
-                                rel: "noreferrer",
-                                target: "_blank",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineTwitter */.h3E, {
-                                    className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
-                                    size: 30
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
                                 href: "https://www.linkedin.com/in/clint-maribojoc-b34b80156/",
                                 rel: "noreferrer",
                                 target: "_blank",
                                 children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineLinkedin */.Rti, {
-                                    className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
-                                    size: 30
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "https://www.youtube.com/channel/UCetoMcRfp7aEaM_n24PCEcQ",
-                                rel: "noreferrer",
-                                target: "_blank",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx(ai_index_esm/* AiOutlineYoutube */.RLq, {
                                     className: "hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100",
                                     size: 30
                                 })
@@ -648,11 +630,11 @@ const HeroSection = ()=>{
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
                                         className: "font-semibold text-purple-600",
                                         children: [
-                                            "Junior Frontend Developer",
+                                            "Frontend Developer",
                                             " "
                                         ]
                                     }),
-                                    "based in Calbayog City, Philippines. Dedicated to shaping the future one line of code at a time."
+                                    "based in Cebu City, Philippines. Dedicated to shaping the future one line of code at a time."
                                 ]
                             }),
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_scroll_modules__WEBPACK_IMPORTED_MODULE_3__/* .Link */ .rU, {
@@ -702,9 +684,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1313);
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5936);
 
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`C:\Users\Clint\Documents\Projects\CCCCCCCC\portfolio\app\layout.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/clintmaribojoc/Desktop/portfolio/app/layout.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -837,7 +819,7 @@ const AboutSection = ()=>{
                                             children: "never stop learning"
                                         }),
                                         " ",
-                                        "and that's what I strive to do, I have a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my career takes me and am always open to new opportunities. \uD83D\uDE42"
+                                        "and that's what I strive to do, I have a passion for technology and a desire to always push the limits of what is possible. I am excited to see where my career takes me and am always open to new opportunities."
                                     ]
                                 })
                             ]
@@ -876,10 +858,10 @@ const AboutSection = ()=>{
 /* harmony default export */ const components_AboutSection = (AboutSection);
 
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1313);
+var module_proxy = __webpack_require__(5936);
 ;// CONCATENATED MODULE: ./components/HeroSection.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\Clint\Documents\Projects\CCCCCCCC\portfolio\components\HeroSection.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`/Users/clintmaribojoc/Desktop/portfolio/components/HeroSection.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -945,7 +927,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [381,223], () => (__webpack_exec__(9551)));
+var __webpack_exports__ = __webpack_require__.X(0, [381,223], () => (__webpack_exec__(1313)));
 module.exports = __webpack_exports__;
 
 })();

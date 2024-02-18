@@ -57,7 +57,7 @@ const AboutSection = () => {
                             and that&#39;s what I strive to do, I have a passion for
                             technology and a desire to always push the limits of what is
                             possible. I am excited to see where my career takes me and am
-                            always open to new opportunities. 🙂
+                            always open to new opportunities.
                         </p>
                     </div>
                     <div className="text-center md:w-1/2 md:text-left">
