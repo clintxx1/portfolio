@@ -12,6 +12,9 @@ const skills = [
     { skill: "Git" },
     { skill: "GitHub" },
     { skill: "Vue" },
+    { skill: "Docker" },
+    { skill: "PostgreSQL" },
+    { skill: "MongoDB" },
 ]
 
 const AboutSection = () => {
@@ -32,13 +35,13 @@ const AboutSection = () => {
                             Hi, my name is Clint and I am a{" "}
                             <span className="font-bold">{"passionate"}</span>,
                             <span className="font-bold">{" self-motivated"}</span>, and
-                            <span className="font-bold">{" driven"}</span> junior frontend developer
+                            <span className="font-bold">{" driven"}</span> senior full stack developer
                             based in Calbayog City, Philippines.
                         </p>
                         <br />
                         <p>
                             I graduated from Northwest Samar State University, Calbayog City, in 2023
-                            with a BS in Computer Science having 2 years of frontend developer experience 
+                            with a BS in Computer Science having 5 years of senior full stack developer experience 
                             and have been working in the field ever since.
                         </p>
                         <br />
