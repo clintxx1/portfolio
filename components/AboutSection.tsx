@@ -4,7 +4,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Marquee from "@/components/ui/marquee";
-import { skills } from "@/lib/constants";
+import { FaJsSquare, FaReact } from "react-icons/fa";
+import { IoLogoNodejs } from "react-icons/io";
+import { SiMongodb, SiNextdotjs, SiPrisma } from "react-icons/si";
+import { IoLogoVue } from "react-icons/io5";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiDrizzle } from "react-icons/si";
 
 export default function AboutSection({
   showAbout,
@@ -13,11 +18,48 @@ export default function AboutSection({
   showAbout: boolean;
   handleDownloadResume: () => void;
 }) {
+  const skills = [
+    {
+      name: "JavaScript",
+      icon: <FaJsSquare className="w-8 h-8 text-yellow-400" />,
+    },
+    {
+      name: "React",
+      icon: <FaReact className="w-8 h-8 text-blue-400" />,
+    },
+    {
+      name: "Next.js",
+      icon: <SiNextdotjs className="w-8 h-8 text-white" />,
+    },
+    {
+      name: "Vue",
+      icon: <IoLogoVue className="w-8 h-8 text-green-400" />,
+    },
+    {
+      name: "MongoDB",
+      icon: <SiMongodb className="w-8 h-8 text-green-500" />,
+    },
+    {
+      name: "PostgreSQL",
+      icon: <BiLogoPostgresql className="w-8 h-8 text-blue-500" />,
+    },
+    {
+      name: "PrismaORM",
+      icon: <SiPrisma className="w-8 h-8 text-purple-400" />,
+    },
+    {
+      name: "DrizzleORM",
+      icon: <SiDrizzle className="w-8 h-8 text-orange-400" />,
+    },
+    {
+      name: "NodeJS",
+      icon: <IoLogoNodejs className="w-8 h-8 text-green-600" />,
+    },
+  ];
   return (
     <section
-      className={`py-20 px-4 transition-all duration-1000 ${
-        showAbout ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
-      }`}
+      className={`py-20 px-4 transition-all duration-1000 ${showAbout ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+        }`}
     >
       <div className="container mx-auto">
         <div className="text-center mb-16">
