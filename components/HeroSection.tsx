@@ -4,8 +4,8 @@ import {
   ChevronDown,
   Mail,
   Code,
-  Palette,
-  Zap,
+  Hamburger,
+  Bed,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -43,9 +43,9 @@ export default function HeroSection({
       {/* Hero Content */}
       <div className="relative z-10 text-center space-y-8 px-4">
         <div className="space-y-4">
-          <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
+          <p className="text-6xl md:text-8xl font-bold pb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent animate-pulse">
             Clint Maribojoc
-          </h1>
+          </p>
           <div className="text-xl md:text-2xl text-gray-300 font-light tracking-wide">
             <span className="inline-block animate-wave delay-100">
               Senior
@@ -62,17 +62,17 @@ export default function HeroSection({
         <div className="flex justify-center space-x-4 mt-12">
           <Card className="bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105">
             <CardContent className="p-4">
-              <Code className="w-8 h-8 text-purple-400 mx-auto" />
+              <Hamburger className="w-8 h-8 text-purple-400 mx-auto" />
             </CardContent>
           </Card>
           <Card className="bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 delay-100">
             <CardContent className="p-4">
-              <Palette className="w-8 h-8 text-pink-400 mx-auto" />
+              <Code className="w-8 h-8 text-pink-400 mx-auto" />
             </CardContent>
           </Card>
           <Card className="bg-white/5 backdrop-blur-lg border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105 delay-200">
             <CardContent className="p-4">
-              <Zap className="w-8 h-8 text-cyan-400 mx-auto" />
+              <Bed className="w-8 h-8 text-cyan-400 mx-auto" />
             </CardContent>
           </Card>
         </div>
