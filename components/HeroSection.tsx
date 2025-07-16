@@ -47,12 +47,9 @@ export default function HeroSection({
             Clint Maribojoc
           </p>
           <div className="text-xl md:text-2xl text-gray-300 font-light tracking-wide">
-            <span className="inline-block animate-wave delay-100">
-              Senior
-            </span>{" "}
-            <span className="inline-block animate-wave delay-200">Full</span>{" "}
-            <span className="inline-block animate-wave delay-400">Stack</span>{" "}
-            <span className="inline-block animate-wave delay-500">
+            <span className="inline-block animate-wave delay-100">Full</span>{" "}
+            <span className="inline-block animate-wave delay-200">Stack</span>{" "}
+            <span className="inline-block animate-wave delay-400">
               Developer
             </span>
           </div>
