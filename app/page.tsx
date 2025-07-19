@@ -29,7 +29,7 @@ export default function Home() {
 
   const handleDownloadResume = async () => {
     const response = await fetch(
-      "https://ik.imagekit.io/cascades/Portfolio/Clint%20Maribojoc.pdf?updatedAt=1752224218719"
+      "https://ik.imagekit.io/cascades/Portfolio/Clint%20Maribojoc.pdf?updatedAt=1752905861669"
     );
     if (!response.ok) {
       console.error("Failed to download resume");
